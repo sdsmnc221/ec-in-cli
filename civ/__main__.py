@@ -66,8 +66,8 @@ def main():
     if args.sample:
         dataset_path = SAMPLE_DATASET
         console.print(
-            f"\n[bold yellow]⚠ Mode démo — vous utilisez un dataset d'exemple ({SAMPLE_DATASET}).[/]\n"
-            f"  [dim]Les scores et statistiques ne reflètent pas l'examen réel.[/]\n"
+            f"\n[bold yellow]⚠ Vous utilisez le dataset d'exemple ({SAMPLE_DATASET}) — 40 questions QA-ées, tirage réel simulé.[/]\n"
+            f"  [dim]Pour accéder au dataset complet (~586 questions), fournissez un fichier via --dataset.[/]\n"
         )
     else:
         dataset_path = args.dataset

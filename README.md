@@ -34,7 +34,7 @@ python -m civ
 
 | Flag                    | Default                         | Description                                     |
 | ----------------------- | ------------------------------- | ----------------------------------------------- |
-| `--sample`              | off                             | Use `dataset_sample.json` (demo, ~10 questions) |
+| `--sample`              | off                             | Use `dataset_sample.json` (40 QA-ed questions, simulates a real exam draw) |
 | `--dataset FILE` / `-d` | `unified_dataset_complete.json` | Path to a custom dataset                        |
 | `--mode MODE` / `-m`    | interactive                     | Skip mode selection: `super-hard` or `marathon` |
 | `--tutorial`            | off                             | Force-show the tutorial even if already seen    |
@@ -157,6 +157,6 @@ ec-in-cli/
 │   ├── results.py      # scoring, session persistence, results screen
 │   ├── stats.py        # difficulty scoring
 │   └── tutorial.py     # first-launch tutorial
-├── dataset_sample.json # small demo dataset (~10 questions)
+├── dataset_sample.json # 40 QA-ed questions (28 conn. + 12 mise-sit.) — one real exam draw
 └── README.md
 ```
