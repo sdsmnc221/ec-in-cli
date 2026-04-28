@@ -111,10 +111,13 @@ def mark_launched(stats: dict):
     stats["first_launch"] = False
 
 
-def difficulty_distribution(stats: dict) -> dict[str, int]:
-    """Count questions per difficulty label — for startup display."""
+def difficulty_distribution(stats: dict, question_ids: set[str] | None = None) -> dict[str, int]:
+    """Count questions per difficulty label — for startup display.
+    If question_ids is provided, only counts questions present in that set."""
     dist = {"standard": 0, "hard": 0, "piege": 0, "new": 0}
-    for q in stats["questions"].values():
+    for qid, q in stats["questions"].items():
+        if question_ids is not None and qid not in question_ids:
+            continue
         label = q.get("difficulte_calculee", "standard")
         if q.get("vues", 0) == 0:
             dist["new"] += 1

@@ -31,10 +31,11 @@ def show_startup(loader: DataLoader, dataset_path: str):
     console.print(loader.stats_table())
 
     # Show difficulty distribution + last sessions if history exists
-    stats_peek = stats_module.load()
-    sessions   = stats_peek.get("sessions", [])
-    dist       = stats_module.difficulty_distribution(stats_peek)
-    total_seen = dist["standard"] + dist["hard"] + dist["piege"]
+    stats_peek   = stats_module.load()
+    sessions     = stats_peek.get("sessions", [])
+    dataset_ids  = {q.id for q in loader.questions}
+    dist         = stats_module.difficulty_distribution(stats_peek, question_ids=dataset_ids)
+    total_seen   = dist["standard"] + dist["hard"] + dist["piege"]
 
     if total_seen > 0:
         console.print(f"\n  [dim]Difficulté dynamique ({total_seen} questions vues) :[/]")
