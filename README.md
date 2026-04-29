@@ -4,6 +4,8 @@ Terminal exam simulator for the French civics test (naturalization / CSP residen
 
 40 questions, 45-minute countdown, dynamic difficulty tracking across sessions.
 
+<video src="./ec-in-cli-proto-01.mp4" muted autoplay alt="Screenshot"></video>
+
 ---
 
 ## Requirements
@@ -32,12 +34,12 @@ python -m civ
 
 ## CLI options
 
-| Flag                    | Default                         | Description                                     |
-| ----------------------- | ------------------------------- | ----------------------------------------------- |
+| Flag                    | Default                         | Description                                                                |
+| ----------------------- | ------------------------------- | -------------------------------------------------------------------------- |
 | `--sample`              | off                             | Use `dataset_sample.json` (40 QA-ed questions, simulates a real exam draw) |
-| `--dataset FILE` / `-d` | `unified_dataset_complete.json` | Path to a custom dataset                        |
-| `--mode MODE` / `-m`    | interactive                     | Skip mode selection: `super-hard` or `marathon` |
-| `--tutorial`            | off                             | Force-show the tutorial even if already seen    |
+| `--dataset FILE` / `-d` | `unified_dataset_complete.json` | Path to a custom dataset                                                   |
+| `--mode MODE` / `-m`    | interactive                     | Skip mode selection: `super-hard` or `marathon`                            |
+| `--tutorial`            | off                             | Force-show the tutorial even if already seen                               |
 
 ```bash
 python -m civ --sample
