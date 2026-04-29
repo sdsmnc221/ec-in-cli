@@ -179,8 +179,8 @@ def _bar(correct: int, total: int, width: int = 20) -> str:
     return f"[{color}]{'█' * filled}[/][dim]{'░' * empty}[/]"
 
 
-def show(session: ScoredSession):
-    """Display the full results screen."""
+def show(session: ScoredSession) -> bool:
+    """Display the full results screen. Returns True if the user wants a new session."""
     console.clear()
 
     # ── Verdict banner ────────────────────────────────────────────────────────
@@ -257,7 +257,7 @@ def show(session: ScoredSession):
 
     # ── Review options ────────────────────────────────────────────────────────
     console.print(Rule(style="dim"))
-    options = []
+    options = [("[Entrée]", "Nouvelle session — retour à l'accueil")]
     if session.incorrect:
         options.append(("[I]", f"Réviser les incorrectes ({len(session.incorrect)})"))
     if session.flagged:
@@ -275,20 +275,18 @@ def show(session: ScoredSession):
     while True:
         key = getch()
         k = key.lower()
-        if k == 'i' and session.incorrect:
-            review(session.incorrect, "Incorrectes", session)
-            break
+        if key in ('\r', '\n'):
+            return True
+        elif k == 'i' and session.incorrect:
+            return review(session.incorrect, "Incorrectes", session)
         elif k == 'm' and session.flagged:
-            review(session.flagged, "Marquées", session)
-            break
+            return review(session.flagged, "Marquées", session)
         elif key == '\t' and session.low_conf:
-            review(session.low_conf, "Peu confiantes", session)
-            break
+            return review(session.low_conf, "Peu confiantes", session)
         elif k == 't':
-            review(session.results, "Toutes", session)
-            break
+            return review(session.results, "Toutes", session)
         elif k in ('q', '\x03'):
-            break
+            return False
 
 
 # ─── Interactive review ───────────────────────────────────────────────────────
@@ -373,13 +371,14 @@ def _review_question(r: QuestionResult, idx: int, total: int):
     console.print()
 
 
-def review(items: list[QuestionResult], label: str, session: ScoredSession):
+def review(items: list[QuestionResult], label: str, session: ScoredSession) -> bool:
     """
     Interactive review loop over a list of QuestionResults.
     [←/→] navigate, [Q] back to results.
+    Returns True if the user wants a new session (bubbled from show()).
     """
     if not items:
-        return
+        return False
 
     idx = 0
 
@@ -406,6 +405,4 @@ def review(items: list[QuestionResult], label: str, session: ScoredSession):
         elif key in ('LEFT', 'h') and idx > 0:
             idx -= 1
         elif k in ('q', '\x03'):
-            # Return to results screen
-            show(session)
-            return
+            return show(session)

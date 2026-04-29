@@ -86,42 +86,48 @@ def main():
     if not loader.load():
         sys.exit(1)
 
-    # Startup
-    show_startup(loader, dataset_path)
-
-    # Tutorial
+    # Tutorial (first launch only, outside the session loop)
     if stats_module.is_first_launch(stats) or args.tutorial:
+        show_startup(loader, dataset_path)
         tutorial.show()
         stats_module.mark_launched(stats)
         stats_module.save(stats)
 
-    # Theme → mode → config
-    selected_themes = theme_menu(loader)
-    mode, total_questions = mode_menu(preselected=args.mode)
-    config = build_config(loader, selected_themes, mode, total_questions, stats)
+    # ── Session loop ──────────────────────────────────────────────────────────
+    while True:
+        stats = stats_module.load()
 
-    # Confirm start
-    console.clear()
-    console.print(header_panel("CIVIQUE CLI", "Prêt à démarrer"))
-    console.print()
-    console.print(f"  Mode       : [bold {TRICOLOR['gold']}]{config.mode.upper()}[/]")
-    console.print(f"  Questions  : [bold white]{config.total_questions}[/]")
-    mins = config.duration_seconds // 60
-    console.print(f"  Durée      : [bold white]{mins} minutes[/]")
-    console.print(f"  Thèmes     : [dim]{', '.join(config.selected_themes)}[/]")
-    console.print()
-    console.print(f"  [dim]Appuyez sur [bold white]Entrée[/] pour démarrer le chronomètre…[/]")
-    input()
+        # Home screen
+        show_startup(loader, dataset_path)
 
-    # Run exam
-    state = run_exam(config, stats)
+        # Theme → mode → config
+        selected_themes = theme_menu(loader)
+        mode, total_questions = mode_menu(preselected=args.mode)
+        config = build_config(loader, selected_themes, mode, total_questions, stats)
 
-    # Score + persist
-    session = score(state)
-    persist(session, stats)
+        # Confirm start
+        console.clear()
+        console.print(header_panel("CIVIQUE CLI", "Prêt à démarrer"))
+        console.print()
+        console.print(f"  Mode       : [bold {TRICOLOR['gold']}]{config.mode.upper()}[/]")
+        console.print(f"  Questions  : [bold white]{config.total_questions}[/]")
+        mins = config.duration_seconds // 60
+        console.print(f"  Durée      : [bold white]{mins} minutes[/]")
+        console.print(f"  Thèmes     : [dim]{', '.join(config.selected_themes)}[/]")
+        console.print()
+        console.print(f"  [dim]Appuyez sur [bold white]Entrée[/] pour démarrer le chronomètre…[/]")
+        input()
 
-    # Show results + review
-    show_results(session)
+        # Run exam
+        state = run_exam(config, stats)
+
+        # Score + persist
+        session = score(state)
+        persist(session, stats)
+
+        # Results — restart=True loops back to home, False exits
+        if not show_results(session):
+            break
 
 
 if __name__ == "__main__":
