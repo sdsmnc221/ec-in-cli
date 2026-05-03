@@ -4,7 +4,8 @@ Terminal exam simulator for the French civics test (naturalization / CSP residen
 
 40 questions, 45-minute countdown, dynamic difficulty tracking across sessions.
 
-https://github.com/user-attachments/assets/fb7956e7-f4cd-443b-902c-bc39430f4056
+
+https://github.com/user-attachments/assets/e623fd4f-ddd6-48c0-a3f8-98615fc78642
 
 ---
 
