@@ -2,7 +2,7 @@
   {
     "year": 1412,
     "year_end": null,
-    "label": "Jeanne d'Arc est française, née vers 1412 à Domrémy, elle est une héroïne nationale pour son rôle",
+    "label": "Naissance de Jeanne d'Arc, future héroïne de la guerre de Cent Ans",
     "explication": "Jeanne d'Arc est française, née vers 1412 à Domrémy, elle est une héroïne nationale pour son rôle pendant la guerre de Cent Ans.",
     "raw_labels": [
       "Jeanne d'Arc est française, née vers 1412 à Domrémy, elle est une héroïne nationale pour son rôle"
@@ -17,7 +17,7 @@
   {
     "year": 1622,
     "year_end": null,
-    "label": "Molière, né en 1622 et mort en 1673, est reconnu comme un grand dramaturge",
+    "label": "Naissance de Molière, grand dramaturge français de la période classique",
     "explication": "Molière, né en 1622 et mort en 1673, est reconnu comme un grand dramaturge et comédien français de la période classique.",
     "raw_labels": [
       "Molière, né en 1622 et mort en 1673, est reconnu comme un grand dramaturge"
@@ -32,7 +32,7 @@
   {
     "year": 1682,
     "year_end": null,
-    "label": "le siège du gouvernement de Louis XIV à partir de 1682.",
+    "label": "Installation de la cour royale et du gouvernement à Versailles sous Louis XIV",
     "explication": "Le Château de Versailles fut spécialement construit pour incarner l'apogée du pouvoir royal absolu et devint la résidence principale et le siège du gouvernement de Louis XIV à partir de 1682.",
     "raw_labels": [
       "le siège du gouvernement de Louis XIV à partir de 1682."
@@ -47,7 +47,7 @@
   {
     "year": 1748,
     "year_end": null,
-    "label": "Théorisés par Montesquieu dans L'Esprit des lois (1748) et consacrés par la Constitution de 1958 : le Parlement",
+    "label": "Montesquieu publie L'Esprit des lois théorisant la séparation des pouvoirs",
     "explication": "Théorisés par Montesquieu dans L'Esprit des lois (1748) et consacrés par la Constitution de 1958 : le Parlement légifère, le gouvernement exécute, et la justice tranche les litiges indépendamment.",
     "raw_labels": [
       "Théorisés par Montesquieu dans L'Esprit des lois (1748) et consacrés par la Constitution de 1958 : le Parlement"
@@ -62,7 +62,7 @@
   {
     "year": 1774,
     "year_end": 1792,
-    "label": "Louis XVI était le roi de France de 1774 à 1792, période qui couvre le déclenchement et les premières",
+    "label": "Règne de Louis XVI et début de la Révolution française, 1774-1792",
     "explication": "Louis XVI était le roi de France de 1774 à 1792, période qui couvre le déclenchement et les premières années de la Révolution française.",
     "raw_labels": [
       "Louis XVI était le roi de France de 1774 à 1792, période qui couvre le déclenchement et les premières"
@@ -77,7 +77,7 @@
   {
     "year": 1789,
     "year_end": null,
-    "label": "Le 14 juillet commémore la prise de la Bastille en 1789, symbole de la Révolution française, et célèbre les valeurs républicaines.",
+    "label": "Prise de la Bastille et Déclaration des Droits de l'Homme fondant la République française",
     "explication": "Le 14 juillet commémore la prise de la Bastille en 1789, symbole de la Révolution française, et célèbre les valeurs républicaines.",
     "raw_labels": [
       "Le 14 juillet commémore la prise de la Bastille en 1789, symbole de la Révolution française, et célèbre les valeurs républicaines.",
@@ -144,7 +144,7 @@
   {
     "year": 1792,
     "year_end": null,
-    "label": "La Ire République (1792), IIe (1848), IIIe (1870), IVe (1946) et Ve (1958, toujours",
+    "label": "Proclamation de la Première République française et fin de la monarchie absolue",
     "explication": "La Ire République (1792), IIe (1848), IIIe (1870), IVe (1946) et Ve (1958, toujours en vigueur). Chaque rupture constitutionnelle majeure fonde une nouvelle République numérotée.",
     "raw_labels": [
       "La Ire République (1792), IIe (1848), IIIe (1870), IVe (1946) et Ve (1958, toujours",
@@ -163,7 +163,7 @@
   {
     "year": 1793,
     "year_end": null,
-    "label": "Louis XVI a été guillotiné publiquement le 21 janvier 1793 à Paris, condamné à mort par la Convention nationale pendant",
+    "label": "Exécution de Louis XVI par la Convention nationale le 21 janvier 1793",
     "explication": "Louis XVI a été guillotiné publiquement le 21 janvier 1793 à Paris, condamné à mort par la Convention nationale pendant la Révolution française.",
     "raw_labels": [
       "Louis XVI a été guillotiné publiquement le 21 janvier 1793 à Paris, condamné à mort par la Convention nationale pendant",
@@ -180,7 +180,7 @@
   {
     "year": 1794,
     "year_end": null,
-    "label": "Le drapeau tricolore bleu blanc rouge symbole de la République",
+    "label": "Adoption officielle du drapeau tricolore français bleu blanc rouge en 1794",
     "explication": "Le drapeau français aux trois couleurs verticales bleu, blanc et rouge a été officiellement adopté en 1794. Il représente les valeurs fondamentales de la République française : la liberté, l'égalité et la fraternité. Ce symbole est devenu un emblème central de l'identité nationale française.",
     "raw_labels": [
       "République française, représentant la liberté, l'égalité et la fraternité depuis 1794.",
@@ -197,7 +197,7 @@
   {
     "year": 1795,
     "year_end": null,
-    "label": "La Marseillaise est l'hymne national officiel de la France depuis 1795.",
+    "label": "La Marseillaise devient l'hymne national officiel de la République française",
     "explication": "La Marseillaise est l'hymne national officiel de la France depuis 1795.",
     "raw_labels": [
       "La Marseillaise est l'hymne national officiel de la France depuis 1795.",
@@ -214,7 +214,7 @@
   {
     "year": 1797,
     "year_end": null,
-    "label": "plus célèbres du monde et est exposée au Louvre depuis 1797",
+    "label": "La Joconde de Léonard de Vinci intègre les collections du Louvre",
     "explication": "La Joconde est l'une des œuvres les plus célèbres du monde et est exposée au Louvre depuis 1797",
     "raw_labels": [
       "plus célèbres du monde et est exposée au Louvre depuis 1797"
@@ -229,7 +229,7 @@
   {
     "year": 1802,
     "year_end": 1885,
-    "label": "Victor Hugo (1802-1885) est l'auteur des Misérables (1862) et de Notre-Dame de Paris",
+    "label": "Victor Hugo, écrivain romantique et homme politique républicain, défenseur des droits humains",
     "explication": "Victor Hugo (1802-1885) est l'auteur des Misérables (1862) et de Notre-Dame de Paris (1831). Figure majeure du romantisme français, il fut aussi un homme politique engagé, défenseur de la République et de l'abolition de la peine de mort. Il est enterré au Panthéon.",
     "raw_labels": [
       "Victor Hugo (1802-1885) est l'auteur des Misérables (1862) et de Notre-Dame de Paris"
@@ -244,7 +244,7 @@
   {
     "year": 1804,
     "year_end": null,
-    "label": "Napoléon Ier a été proclamé empereur des Français en 1804, gouvernant jusqu'en 1814.",
+    "label": "Napoléon proclamé empereur des Français, couronnement le 2 décembre 1804",
     "explication": "Napoléon Ier a été proclamé empereur des Français en 1804, gouvernant jusqu'en 1814.",
     "raw_labels": [
       "Napoléon Ier a été proclamé empereur des Français en 1804, gouvernant jusqu'en 1814.",
@@ -263,7 +263,7 @@
   {
     "year": 1808,
     "year_end": null,
-    "label": "Créé en 1808 sous Napoléon, le baccalauréat est le premier grade universitaire français.",
+    "label": "Création du baccalauréat par Napoléon, premier grade universitaire français",
     "explication": "Créé en 1808 sous Napoléon, le baccalauréat est le premier grade universitaire français. Il existe en trois voies — générale, technologique et professionnelle — et donne accès à l'enseignement supérieur via Parcoursup.",
     "raw_labels": [
       "Créé en 1808 sous Napoléon, le baccalauréat est le premier grade universitaire français."
@@ -278,7 +278,7 @@
   {
     "year": 1830,
     "year_end": null,
-    "label": "L'Algérie a été colonisée par la France en 1830 et a obtenu son indépendance en 1962, après 132 ans",
+    "label": "Révolution de Juillet 1830 : chute de Charles X et début de la monarchie de Louis-Philippe",
     "explication": "L'Algérie a été colonisée par la France en 1830 et a obtenu son indépendance en 1962, après 132 ans de présence française.",
     "raw_labels": [
       "L'Algérie a été colonisée par la France en 1830 et a obtenu son indépendance en 1962, après 132 ans",
@@ -297,7 +297,7 @@
   {
     "year": 1848,
     "year_end": null,
-    "label": "L'esclavage a été officiellement aboli en France le 27 avril 1848 par un décret du gouvernement provisoire de la Deuxième République.",
+    "label": "Abolition de l'esclavage en France par décret du gouvernement provisoire de 1848",
     "explication": "L'esclavage a été officiellement aboli en France le 27 avril 1848 par un décret du gouvernement provisoire de la Deuxième République.",
     "raw_labels": [
       "L'esclavage a été officiellement aboli en France le 27 avril 1848 par un décret du gouvernement provisoire de la Deuxième République.",
@@ -318,7 +318,7 @@
   {
     "year": 1862,
     "year_end": null,
-    "label": "Misérables est un roman écrit par Victor Hugo, publié en 1862, qui raconte l'histoire de Jean Valjean.",
+    "label": "Publication des Misérables de Victor Hugo, roman majeur de la littérature française du XIXe siècle",
     "explication": "Les Misérables est un roman écrit par Victor Hugo, publié en 1862, qui raconte l'histoire de Jean Valjean.",
     "raw_labels": [
       "Misérables est un roman écrit par Victor Hugo, publié en 1862, qui raconte l'histoire de Jean Valjean.",
@@ -335,7 +335,7 @@
   {
     "year": 1862,
     "year_end": 1918,
-    "label": "Claude Debussy (1862-1918) est le fondateur de l'impressionnisme musical français, courant caractérisé par",
+    "label": "Émergence de l'impressionnisme musical français avec Claude Debussy, fondateur d'un courant novateur",
     "explication": "Claude Debussy (1862-1918) est le fondateur de l'impressionnisme musical français, courant caractérisé par des harmonies fluides et évocatrices. Ses œuvres majeures incluent 'La Mer' et les 'Préludes' pour piano.",
     "raw_labels": [
       "Claude Debussy (1862-1918) est le fondateur de l'impressionnisme musical français, courant caractérisé par"
@@ -350,7 +350,7 @@
   {
     "year": 1872,
     "year_end": null,
-    "label": "mouvement nommé d'après son tableau 'Impression, soleil levant' peint en 1872.",
+    "label": "Émergence de l'impressionnisme avec Monet et la révolution artistique française",
     "explication": "Claude Monet est le fondateur et le représentant le plus emblématique de l'impressionnisme, mouvement nommé d'après son tableau 'Impression, soleil levant' peint en 1872.",
     "raw_labels": [
       "mouvement nommé d'après son tableau 'Impression, soleil levant' peint en 1872."
@@ -365,7 +365,7 @@
   {
     "year": 1881,
     "year_end": 1882,
-    "label": "rendu l'école gratuite, laïque et obligatoire par deux lois en 1881 et 1882.",
+    "label": "Lois Jules Ferry rendant l'école gratuite, laïque et obligatoire",
     "explication": "Jules Ferry a rendu l'école gratuite, laïque et obligatoire par deux lois en 1881 et 1882.",
     "raw_labels": [
       "rendu l'école gratuite, laïque et obligatoire par deux lois en 1881 et 1882.",
@@ -382,7 +382,7 @@
   {
     "year": 1881,
     "year_end": null,
-    "label": "L'école publique est devenue gratuite en 1881 grâce à la loi Jules Ferry.",
+    "label": "Loi Jules Ferry établit gratuité et obligatoire de l'école publique en France",
     "explication": "L'école publique est devenue gratuite en 1881 grâce à la loi Jules Ferry.",
     "raw_labels": [
       "L'école publique est devenue gratuite en 1881 grâce à la loi Jules Ferry.",
@@ -399,7 +399,7 @@
   {
     "year": 1882,
     "year_end": null,
-    "label": "de sexe ou de nationalité, conformément à la loi de 1882.",
+    "label": "Loi Jules Ferry rendant l'école obligatoire, gratuite et laïque pour tous",
     "explication": "L'école est obligatoire pour tous les enfants résidant en France, sans distinction de sexe ou de nationalité, conformément à la loi de 1882.",
     "raw_labels": [
       "de sexe ou de nationalité, conformément à la loi de 1882.",
@@ -416,7 +416,7 @@
   {
     "year": 1887,
     "year_end": null,
-    "label": "Marc Chagall, né en 1887 et mort en 1985, est reconnu comme un peintre franco-russe",
+    "label": "Naissance de Marc Chagall, peintre franco-russe majeur du modernisme artistique",
     "explication": "Marc Chagall, né en 1887 et mort en 1985, est reconnu comme un peintre franco-russe majeur du 20e siècle, mêlant éléments biographiques et symboliques dans son œuvre.",
     "raw_labels": [
       "Marc Chagall, né en 1887 et mort en 1985, est reconnu comme un peintre franco-russe"
@@ -431,7 +431,7 @@
   {
     "year": 1889,
     "year_end": null,
-    "label": "La tour Eiffel a été construite pour l'Exposition universelle de 1889, qui célébrait le centenaire de la Révolution française.",
+    "label": "Construction de la Tour Eiffel pour l'Exposition universelle célébrant le centenaire de la Révolution française",
     "explication": "La tour Eiffel a été construite pour l'Exposition universelle de 1889, qui célébrait le centenaire de la Révolution française.",
     "raw_labels": [
       "La tour Eiffel a été construite pour l'Exposition universelle de 1889, qui célébrait le centenaire de la Révolution française.",
@@ -448,7 +448,7 @@
   {
     "year": 1901,
     "year_end": null,
-    "label": "C'est un droit fondamental garanti par la loi de 1901 sur la liberté d'association.",
+    "label": "Loi de 1901 établissant la liberté d'association en France sans but lucratif",
     "explication": "C'est un droit fondamental garanti par la loi de 1901 sur la liberté d'association.",
     "raw_labels": [
       "C'est un droit fondamental garanti par la loi de 1901 sur la liberté d'association.",
@@ -467,7 +467,7 @@
   {
     "year": 1905,
     "year_end": null,
-    "label": "séparation des Églises et de l'État a été votée en 1905, instaurant le principe de laïcité dans les institutions françaises.",
+    "label": "Loi de séparation des Églises et de l'État établissant le principe de laïcité",
     "explication": "La loi de séparation des Églises et de l'État a été votée en 1905, instaurant le principe de laïcité dans les institutions françaises.",
     "raw_labels": [
       "séparation des Églises et de l'État a été votée en 1905, instaurant le principe de laïcité dans les institutions françaises.",
@@ -502,7 +502,7 @@
   {
     "year": 1914,
     "year_end": null,
-    "label": "La Première Guerre mondiale a débuté en 1914 et s'est terminée en 1918, impliquant de nombreux pays européens",
+    "label": "Début de la Première Guerre mondiale suite à l'assassinat de l'archiduc François-Ferdinand",
     "explication": "La Première Guerre mondiale a débuté en 1914 et s'est terminée en 1918, impliquant de nombreux pays européens et marquant profondément le XXe siècle.",
     "raw_labels": [
       "La Première Guerre mondiale a débuté en 1914 et s'est terminée en 1918, impliquant de nombreux pays européens",
@@ -521,7 +521,7 @@
   {
     "year": 1915,
     "year_end": null,
-    "label": "Née en 1915, surnommée \"la Môme Piaf\", elle est l'une des artistes françaises",
+    "label": "Naissance d'Édith Piaf, future icône de la chanson française mondiale",
     "explication": "Née en 1915, surnommée \"la Môme Piaf\", elle est l'une des artistes françaises les plus connues dans le monde, célèbre pour \"La Vie en rose\" et \"Non, je ne regrette rien\". Symbole universel de la chanson française.",
     "raw_labels": [
       "Née en 1915, surnommée \"la Môme Piaf\", elle est l'une des artistes françaises"
@@ -536,7 +536,7 @@
   {
     "year": 1918,
     "year_end": null,
-    "label": "mettant fin aux combats de la Première Guerre mondiale en 1918.",
+    "label": "Armistice du 11 novembre 1918 mettant fin à la Première Guerre mondiale",
     "explication": "Le 11 novembre commémore la signature de l'Armistice mettant fin aux combats de la Première Guerre mondiale en 1918.",
     "raw_labels": [
       "mettant fin aux combats de la Première Guerre mondiale en 1918."
@@ -551,7 +551,7 @@
   {
     "year": 1936,
     "year_end": null,
-    "label": "pour défendre leurs intérêts professionnels, garanti par la loi de 1936.",
+    "label": "Reconnaissance légale du droit de grève en France par la loi de 1936",
     "explication": "Le droit de grève permet aux salariés d'arrêter collectivement et concertatement le travail pour défendre leurs intérêts professionnels, garanti par la loi de 1936.",
     "raw_labels": [
       "pour défendre leurs intérêts professionnels, garanti par la loi de 1936."
@@ -566,7 +566,7 @@
   {
     "year": 1937,
     "year_end": null,
-    "label": "Joséphine Baker naturalisée française en 1937",
+    "label": "Naturalisation de Joséphine Baker, figure de la lutte contre le racisme et la Résistance",
     "explication": "Joséphine Baker, chanteuse et danseuse franco-américaine, obtient la nationalité française en 1937. Elle se distingue par son combat contre le racisme et devient une figure majeure de la Résistance française pendant la Seconde Guerre mondiale.",
     "raw_labels": [
       "était une chanteuse, danseuse et résistante franco-américaine, naturalisée française en 1937, connue pour son engagement contre le racisme et sa participation"
@@ -581,7 +581,7 @@
   {
     "year": 1940,
     "year_end": null,
-    "label": "Appel du 18 juin 1940 du général de Gaulle depuis Londres",
+    "label": "L'Appel du 18 juin 1940 du général de Gaulle pour la résistance et la France libre",
     "explication": "Le 18 juin 1940, le général de Gaulle lance depuis Londres son appel à la résistance contre l'occupant nazi. Cet appel marque le début de la France libre et devient un symbole majeur de la lutte pour la libération. Il représente le refus de la capitulation et l'engagement dans la Seconde Guerre mondiale aux côtés des Alliés.",
     "raw_labels": [
       "Le 18 juin 1940, le général de Gaulle lance depuis Londres son appel à",
@@ -598,7 +598,7 @@
   {
     "year": 1941,
     "year_end": 1945,
-    "label": "Entre 1941 et 1945, le régime nazi a organisé le génocide de",
+    "label": "Génocide des Juifs d'Europe organisé par le régime nazi et la collaboration de Vichy",
     "explication": "Entre 1941 et 1945, le régime nazi a organisé le génocide de six millions de Juifs européens. En France, le régime de Vichy a activement participé aux déportations.",
     "raw_labels": [
       "Entre 1941 et 1945, le régime nazi a organisé le génocide de",
@@ -615,7 +615,7 @@
   {
     "year": 1943,
     "year_end": null,
-    "label": "Moulin a été arrêté par la Gestapo le 21 juin 1943 à Caluire-et-Cuire lors d'une réunion des chefs de la Résistance.",
+    "label": "Arrestation de Jean Moulin par la Gestapo à Caluire-et-Cuire le 21 juin 1943",
     "explication": "Jean Moulin a été arrêté par la Gestapo le 21 juin 1943 à Caluire-et-Cuire lors d'une réunion des chefs de la Résistance.",
     "raw_labels": [
       "Moulin a été arrêté par la Gestapo le 21 juin 1943 à Caluire-et-Cuire lors d'une réunion des chefs de la Résistance."
@@ -630,7 +630,7 @@
   {
     "year": 1944,
     "year_end": null,
-    "label": "L'ordonnance du 21 avril 1944 accorde aux femmes françaises le droit de vote et l'éligibilité.",
+    "label": "Droit de vote accordé aux femmes françaises par ordonnance du 21 avril 1944",
     "explication": "L'ordonnance du 21 avril 1944 accorde aux femmes françaises le droit de vote et l'éligibilité. Elles votent pour la première fois aux municipales d'avril 1945. Les droits bancaires autonomes datent de 1965, l'égalité salariale de 1972",
     "raw_labels": [
       "L'ordonnance du 21 avril 1944 accorde aux femmes françaises le droit de vote et l'éligibilité.",
@@ -649,7 +649,7 @@
   {
     "year": 1945,
     "year_end": null,
-    "label": "Pologne par l'Allemagne nazie et s'est terminée le 2 septembre 1945 avec la capitulation du Japon.",
+    "label": "Fin de la Seconde Guerre mondiale et création de l'ONU pour la paix internationale",
     "explication": "La Seconde Guerre mondiale a débuté le 1er septembre 1939 par l'invasion de la Pologne par l'Allemagne nazie et s'est terminée le 2 septembre 1945 avec la capitulation du Japon.",
     "raw_labels": [
       "Pologne par l'Allemagne nazie et s'est terminée le 2 septembre 1945 avec la capitulation du Japon.",
@@ -676,7 +676,7 @@
   {
     "year": 1946,
     "year_end": null,
-    "label": "La Réunion est un département d'outre-mer français depuis 1946, intégré au territoire national avec le même statut qu'un département",
+    "label": "La Réunion devient département français d'outre-mer en 1946",
     "explication": "La Réunion est un département d'outre-mer français depuis 1946, intégré au territoire national avec le même statut qu'un département métropolitain.",
     "raw_labels": [
       "La Réunion est un département d'outre-mer français depuis 1946, intégré au territoire national avec le même statut qu'un département",
@@ -695,7 +695,7 @@
   {
     "year": 1949,
     "year_end": null,
-    "label": "Publié en 1949, \"Le Deuxième Sexe\" analyse la condition féminine et pose la",
+    "label": "Publication de \"Le Deuxième Sexe\" de Simone de Beauvoir, fondement du féminisme moderne",
     "explication": "Publié en 1949, \"Le Deuxième Sexe\" analyse la condition féminine et pose la distinction fondatrice \"on ne naît pas femme, on le devient\" — texte de référence mondial du féminisme et de la philosophie existentialiste.",
     "raw_labels": [
       "Publié en 1949, \"Le Deuxième Sexe\" analyse la condition féminine et pose la",
@@ -712,7 +712,7 @@
   {
     "year": 1950,
     "year_end": null,
-    "label": "journée de l'Europe, commémorant le discours de Robert Schuman en 1950.",
+    "label": "Déclaration Schuman fondant les bases de la construction européenne",
     "explication": "Le 9 mai est la date officielle de célébration de la journée de l'Europe, commémorant le discours de Robert Schuman en 1950.",
     "raw_labels": [
       "journée de l'Europe, commémorant le discours de Robert Schuman en 1950.",
@@ -729,7 +729,7 @@
   {
     "year": 1951,
     "year_end": null,
-    "label": "La création de la CECA en 1951 a marqué le début de la construction européenne en intégrant",
+    "label": "Création de la CECA, première étape de l'intégration économique européenne",
     "explication": "La création de la CECA en 1951 a marqué le début de la construction européenne en intégrant économiquement la France et l'Allemagne.",
     "raw_labels": [
       "La création de la CECA en 1951 a marqué le début de la construction européenne en intégrant"
@@ -744,7 +744,7 @@
   {
     "year": 1957,
     "year_end": null,
-    "label": "Traité de Rome fondant la CEE le 25 mars 1957",
+    "label": "Signature du traité de Rome instituant la Communauté économique européenne",
     "explication": "Le traité de Rome est signé le 25 mars 1957 par six pays fondateurs : la France, l'Allemagne de l'Ouest, l'Italie, la Belgique, les Pays-Bas et le Luxembourg. Ce traité institue la Communauté économique européenne (CEE) et entre en vigueur le 1er janvier 1958, marquant le début de l'intégration économique européenne.",
     "raw_labels": [
       "Luxembourg. Le traité est signé à Rome le 25 mars 1957.",
@@ -763,7 +763,7 @@
   {
     "year": 1958,
     "year_end": null,
-    "label": "Constitution de la Ve République adoptée en 1958 par de Gaulle",
+    "label": "Fondation de la Ve République par de Gaulle avec nouvelle Constitution le 4 octobre 1958",
     "explication": "Le général de Gaulle fonde la Ve République en 1958 en promulguant une nouvelle Constitution qui renforce le rôle du président. Cette Constitution, entrée en vigueur le 4 octobre 1958, établit le cadre politique actuel de la France et définit la République comme indivisible, laïque, démocratique et sociale.",
     "raw_labels": [
       "Inscrite à l'article 2 de la Constitution de 1958, \"Liberté, Égalité, Fraternité\" est officiellement la devise de la République",
@@ -820,7 +820,7 @@
   {
     "year": 1962,
     "year_end": null,
-    "label": "président a été instauré par le général de Gaulle en 1962, après un référendum",
+    "label": "Instauration du suffrage universel direct pour l'élection du président de la République",
     "explication": "Le suffrage universel direct pour l'élection du président a été instauré par le général de Gaulle en 1962, après un référendum",
     "raw_labels": [
       "président a été instauré par le général de Gaulle en 1962, après un référendum"
@@ -835,7 +835,7 @@
   {
     "year": 1970,
     "year_end": null,
-    "label": "est interdite en France depuis la loi du 23 août 1970 qui a réformé le droit des divorces.",
+    "label": "Réforme du droit du divorce interdisant la répudiation des femmes",
     "explication": "La répudiation de sa femme est interdite en France depuis la loi du 23 août 1970 qui a réformé le droit des divorces.",
     "raw_labels": [
       "est interdite en France depuis la loi du 23 août 1970 qui a réformé le droit des divorces."
@@ -850,7 +850,7 @@
   {
     "year": 1972,
     "year_end": null,
-    "label": "numéro officiel pour contacter les pompiers en France, utilisé depuis 1972.",
+    "label": "Lois contre le racisme et numéro d'urgence pompiers établis en France",
     "explication": "Le 18 est le numéro officiel pour contacter les pompiers en France, utilisé depuis 1972.",
     "raw_labels": [
       "numéro officiel pour contacter les pompiers en France, utilisé depuis 1972.",
@@ -871,7 +871,7 @@
   {
     "year": 1973,
     "year_end": null,
-    "label": "La polygamie est interdite en France depuis la loi de 1973, qui a renforcé le principe de monogamie.",
+    "label": "Interdiction de la polygamie en France par la loi de 1973",
     "explication": "La polygamie est interdite en France depuis la loi de 1973, qui a renforcé le principe de monogamie.",
     "raw_labels": [
       "La polygamie est interdite en France depuis la loi de 1973, qui a renforcé le principe de monogamie.",
@@ -888,7 +888,7 @@
   {
     "year": 1974,
     "year_end": null,
-    "label": "majorité civile en France est fixé à 18 ans depuis 1974",
+    "label": "Abaissement de la majorité civile de 21 à 18 ans en France",
     "explication": "L'âge de la majorité civile en France est fixé à 18 ans depuis 1974",
     "raw_labels": [
       "majorité civile en France est fixé à 18 ans depuis 1974",
@@ -905,7 +905,7 @@
   {
     "year": 1975,
     "year_end": null,
-    "label": "La loi de 1975 a instauré le divorce sans faute en France. Aujourd'hui quatre",
+    "label": "Loi Veil 1975 : légalisation de l'interruption volontaire de grossesse en France",
     "explication": "La loi de 1975 a instauré le divorce sans faute en France. Aujourd'hui quatre formes coexistent : consentement mutuel, acceptation du principe de rupture, altération définitive du lien conjugal, et faute.",
     "raw_labels": [
       "La loi de 1975 a instauré le divorce sans faute en France. Aujourd'hui quatre",
@@ -928,7 +928,7 @@
   {
     "year": 1980,
     "year_end": null,
-    "label": "avoir été la première femme élue à l'Académie française en 1980",
+    "label": "Marguerite Yourcenar devient première femme élue à l'Académie française",
     "explication": "Marguerite Yourcenar est principalement connue pour ses romans et ses essais, ainsi que pour avoir été la première femme élue à l'Académie française en 1980",
     "raw_labels": [
       "avoir été la première femme élue à l'Académie française en 1980"
@@ -943,7 +943,7 @@
   {
     "year": 1981,
     "year_end": null,
-    "label": "La peine de mort a été abrogée en France en 1981 par la loi Badinter, conformément aux principes humanitaires et aux",
+    "label": "Abolition de la peine de mort en France par la loi Badinter en 1981",
     "explication": "La peine de mort a été abrogée en France en 1981 par la loi Badinter, conformément aux principes humanitaires et aux valeurs de la République.",
     "raw_labels": [
       "La peine de mort a été abrogée en France en 1981 par la loi Badinter, conformément aux principes humanitaires et aux",
@@ -964,7 +964,7 @@
   {
     "year": 1983,
     "year_end": null,
-    "label": "La Commune est responsable car la loi de décentralisation de 1983 a confié aux municipalités la gestion des écoles primaires et",
+    "label": "Loi de décentralisation transférant aux communes la gestion des écoles publiques",
     "explication": "La Commune est responsable car la loi de décentralisation de 1983 a confié aux municipalités la gestion des écoles primaires et maternelles publiques.",
     "raw_labels": [
       "La Commune est responsable car la loi de décentralisation de 1983 a confié aux municipalités la gestion des écoles primaires et"
@@ -979,7 +979,7 @@
   {
     "year": 1985,
     "year_end": null,
-    "label": "9e symphonie de Beethoven, est l'hymne officiel de l'UE depuis 1985. Il symbolise les idéaux de liberté, de paix et d'unité",
+    "label": "Adoption de l'Ode à la Joie comme hymne officiel de l'Union européenne",
     "explication": "L'Ode à la Joie, extrait de la 9e symphonie de Beethoven, est l'hymne officiel de l'UE depuis 1985. Il symbolise les idéaux de liberté, de paix et d'unité européenne, sans paroles pour transcender les barrières linguistiques",
     "raw_labels": [
       "9e symphonie de Beethoven, est l'hymne officiel de l'UE depuis 1985. Il symbolise les idéaux de liberté, de paix et d'unité"
@@ -994,7 +994,7 @@
   {
     "year": 1992,
     "year_end": null,
-    "label": "Le Traité de Maastricht, signé en 1992, a instauré officiellement la citoyenneté européenne",
+    "label": "Traité de Maastricht 1992 : création de l'Union européenne et citoyenneté européenne",
     "explication": "Le Traité de Maastricht, signé en 1992, a instauré officiellement la citoyenneté européenne",
     "raw_labels": [
       "Le Traité de Maastricht, signé en 1992, a instauré officiellement la citoyenneté européenne",
@@ -1015,7 +1015,7 @@
   {
     "year": 1994,
     "year_end": null,
-    "label": "principe de dignité humaine, reconnu par le Conseil constitutionnel depuis 1994, interdit tout traitement dégradant ou inhumain et toute atteinte à",
+    "label": "Conseil constitutionnel reconnaît la dignité humaine comme principe fondamental français",
     "explication": "Le principe de dignité humaine, reconnu par le Conseil constitutionnel depuis 1994, interdit tout traitement dégradant ou inhumain et toute atteinte à l'intégrité de la personne. Il fonde notamment l'interdiction de la torture, des peines dégradantes et de l'esclavage",
     "raw_labels": [
       "principe de dignité humaine, reconnu par le Conseil constitutionnel depuis 1994, interdit tout traitement dégradant ou inhumain et toute atteinte à"
@@ -1030,7 +1030,7 @@
   {
     "year": 1998,
     "year_end": null,
-    "label": "Lyon est classée au patrimoine mondial de l'UNESCO depuis 1998 pour son site historique exceptionnel. Capitale d'Auvergne-Rhône-Alpes, elle est aussi",
+    "label": "Lyon inscrite au patrimoine mondial de l'UNESCO pour son site historique exceptionnel",
     "explication": "Lyon est classée au patrimoine mondial de l'UNESCO depuis 1998 pour son site historique exceptionnel. Capitale d'Auvergne-Rhône-Alpes, elle est aussi connue comme capitale mondiale de la gastronomie et siège d'Interpol.",
     "raw_labels": [
       "Lyon est classée au patrimoine mondial de l'UNESCO depuis 1998 pour son site historique exceptionnel. Capitale d'Auvergne-Rhône-Alpes, elle est aussi",
@@ -1047,7 +1047,7 @@
   {
     "year": 1999,
     "year_end": null,
-    "label": "L'euro a été introduit en 1999 sous forme électronique, mais n'est devenu la monnaie officielle en",
+    "label": "Introduction de l'euro comme monnaie commune électronique en France et Europe",
     "explication": "L'euro a été introduit en 1999 sous forme électronique, mais n'est devenu la monnaie officielle en circulation qu'en 2002",
     "raw_labels": [
       "L'euro a été introduit en 1999 sous forme électronique, mais n'est devenu la monnaie officielle en"
@@ -1062,7 +1062,7 @@
   {
     "year": 2000,
     "year_end": null,
-    "label": "est fixée à 35 heures depuis la loi Aubry de 2000.",
+    "label": "Réforme du temps de travail en France : adoption de la semaine de trente-cinq heures",
     "explication": "La durée légale du temps de travail par semaine est fixée à 35 heures depuis la loi Aubry de 2000.",
     "raw_labels": [
       "est fixée à 35 heures depuis la loi Aubry de 2000.",
@@ -1081,7 +1081,7 @@
   {
     "year": 2001,
     "year_end": null,
-    "label": "Protection contre les discriminations à l'embauche basée sur l'origine",
+    "label": "Interdiction légale des refus d'embauche fondés sur l'origine des candidats",
     "explication": "Depuis 2001, la loi française interdit les refus d'embauche fondés sur l'origine des candidats. Cette mesure législative représente un progrès majeur dans la lutte contre les discriminations en matière d'accès à l'emploi. Elle garantit l'égalité des chances pour tous les citoyens indépendamment de leur origine.",
     "raw_labels": [
       "française protège contre le refus d'embauche basé sur l'origine depuis 2001."
@@ -1096,7 +1096,7 @@
   {
     "year": 2002,
     "year_end": null,
-    "label": "la monnaie officielle de la France depuis le 1er janvier 2002.",
+    "label": "Adoption de l'euro comme monnaie officielle de la France le 1er janvier 2002",
     "explication": "L'Euro est la monnaie officielle de la France depuis le 1er janvier 2002.",
     "raw_labels": [
       "la monnaie officielle de la France depuis le 1er janvier 2002.",
@@ -1115,7 +1115,7 @@
   {
     "year": 2004,
     "year_end": null,
-    "label": "principe de neutralité, interdisant les signes religieux visibles. Loi de 2004.",
+    "label": "Loi de 2004 interdisant les signes religieux ostensibles à l'école publique",
     "explication": "Les agents du service public doivent respecter le principe de neutralité, interdisant les signes religieux visibles. Loi de 2004.",
     "raw_labels": [
       "principe de neutralité, interdisant les signes religieux visibles. Loi de 2004.",
@@ -1142,7 +1142,7 @@
   {
     "year": 2005,
     "year_end": null,
-    "label": "à l'amélioration de l'environnement.\" Ce texte a valeur constitutionnelle depuis 2005.",
+    "label": "Intégration de la Charte de l'environnement à la Constitution française et protection des droits des personnes handicapées",
     "explication": "Article 2 de la Charte de l'environnement : \"Toute personne a le devoir de prendre part à la préservation et à l'amélioration de l'environnement.\" Ce texte a valeur constitutionnelle depuis 2005.",
     "raw_labels": [
       "à l'amélioration de l'environnement.\" Ce texte a valeur constitutionnelle depuis 2005.",
@@ -1161,7 +1161,7 @@
   {
     "year": 2008,
     "year_end": null,
-    "label": "Issu de la fusion de l'ANPE et des Assedic en 2008, rebaptisé France Travail en janvier 2024, cet organisme public accompagne",
+    "label": "Fusion de l'ANPE et des Assedic créant Pôle emploi",
     "explication": "Issu de la fusion de l'ANPE et des Assedic en 2008, rebaptisé France Travail en janvier 2024, cet organisme public accompagne les demandeurs d'emploi dans leurs recherches et gère le versement des allocations chômage (ARE).",
     "raw_labels": [
       "Issu de la fusion de l'ANPE et des Assedic en 2008, rebaptisé France Travail en janvier 2024, cet organisme public accompagne",
@@ -1178,7 +1178,7 @@
   {
     "year": 2011,
     "year_end": null,
-    "label": "Mayotte est devenue le 101ème département français en 2011, passant du statut de collectivité d'outre-mer à celui de département",
+    "label": "Mayotte devient département français et création du Défenseur des droits",
     "explication": "Mayotte est devenue le 101ème département français en 2011, passant du statut de collectivité d'outre-mer à celui de département",
     "raw_labels": [
       "Mayotte est devenue le 101ème département français en 2011, passant du statut de collectivité d'outre-mer à celui de département",
@@ -1195,7 +1195,7 @@
   {
     "year": 2013,
     "year_end": null,
-    "label": "La loi française autorise le mariage pour tous depuis 2013, et les maires ne peuvent pas refuser de célébrer un",
+    "label": "Loi mariage pour tous adoptée en France, maires célèbrent unions civiles sans discrimination",
     "explication": "La loi française autorise le mariage pour tous depuis 2013, et les maires ne peuvent pas refuser de célébrer un mariage civil en raison de l'orientation sexuelle des personnes concernées.",
     "raw_labels": [
       "La loi française autorise le mariage pour tous depuis 2013, et les maires ne peuvent pas refuser de célébrer un",
@@ -1212,7 +1212,7 @@
   {
     "year": 2015,
     "year_end": null,
-    "label": "Loi NOTRe 2015 fusion des 22 régions en 13 régions",
+    "label": "Réforme territoriale : 22 régions métropolitaines réduites à 13 en 2016",
     "explication": "La loi NOTRe du 7 août 2015 a restructuré l'organisation territoriale française en réduisant le nombre de régions métropolitaines de 22 à 13, effective depuis le 1er janvier 2016. Cette réforme visait à simplifier l'administration locale et à renforcer l'efficacité des collectivités régionales.",
     "raw_labels": [
       "La loi NOTRe du 7 août 2015 a fusionné les 22 anciennes régions en 13 grandes régions",
@@ -1229,7 +1229,7 @@
   {
     "year": 2016,
     "year_end": null,
-    "label": "Le référendum du 23 juin 2016 a donné 51,9% en faveur du Brexit. Le retrait officiel",
+    "label": "Réforme territoriale française : création de 18 régions administratives et redéfinition des chefs-lieux",
     "explication": "Le référendum du 23 juin 2016 a donné 51,9% en faveur du Brexit. Le retrait officiel est effectif le 31 janvier 2020, faisant du Royaume-Uni le premier et seul pays à avoir quitté l'UE.",
     "raw_labels": [
       "Le référendum du 23 juin 2016 a donné 51,9% en faveur du Brexit. Le retrait officiel",
@@ -1250,7 +1250,7 @@
   {
     "year": 2017,
     "year_end": null,
-    "label": "La loi du 30 décembre 2017 a étendu les vaccinations obligatoires à 11 vaccins pour les",
+    "label": "Extension des vaccinations obligatoires à onze vaccins pour les nourrissons en France",
     "explication": "La loi du 30 décembre 2017 a étendu les vaccinations obligatoires à 11 vaccins pour les nourrissons. L'objectif est double : protection individuelle et immunité de groupe, qui protège les personnes ne pouvant pas être vaccinées (immunodéprimés, nourrissons trop jeunes).",
     "raw_labels": [
       "La loi du 30 décembre 2017 a étendu les vaccinations obligatoires à 11 vaccins pour les"
@@ -1265,7 +1265,7 @@
   {
     "year": 2018,
     "year_end": null,
-    "label": "Depuis 2018, 11 vaccins sont obligatoires pour les enfants nés après le",
+    "label": "Obligation vaccinale pour enfants nés après janvier 2018 en collectivités scolaires",
     "explication": "Depuis 2018, 11 vaccins sont obligatoires pour les enfants nés après le 1er janvier 2018, dont le DTP. Sans ces vaccins, l'enfant ne peut être admis dans aucune collectivité (crèche, école). Seule une contre-indication médicale certifiée permet une dérogation.",
     "raw_labels": [
       "Depuis 2018, 11 vaccins sont obligatoires pour les enfants nés après le"
@@ -1280,7 +1280,7 @@
   {
     "year": 2019,
     "year_end": null,
-    "label": "L'instruction est obligatoire jusqu'à 16 ans depuis 2019, conformément à la loi modifiant l'âge de fin de l'obligation",
+    "label": "Obligation scolaire abaissée à 3 ans par la loi Blanquer en 2019",
     "explication": "L'instruction est obligatoire jusqu'à 16 ans depuis 2019, conformément à la loi modifiant l'âge de fin de l'obligation scolaire.",
     "raw_labels": [
       "L'instruction est obligatoire jusqu'à 16 ans depuis 2019, conformément à la loi modifiant l'âge de fin de l'obligation",
@@ -1301,7 +1301,7 @@
   {
     "year": 2020,
     "year_end": null,
-    "label": "La loi anti-gaspillage pour une économie circulaire de 2020 encourage le tri des déchets selon les catégories définies par",
+    "label": "Confinement national en France pour contenir la pandémie de COVID-19",
     "explication": "La loi anti-gaspillage pour une économie circulaire de 2020 encourage le tri des déchets selon les catégories définies par la commune et la réduction des emballages.",
     "raw_labels": [
       "La loi anti-gaspillage pour une économie circulaire de 2020 encourage le tri des déchets selon les catégories définies par",
@@ -1320,7 +1320,7 @@
   {
     "year": 2021,
     "year_end": null,
-    "label": "plus peuplée du pays, avec environ 2,2 millions d'habitants en 2021.",
+    "label": "Loi de bioéthique élargit accès PMA à toutes femmes en France le 2 août 2021",
     "explication": "Paris est la capitale de la France depuis le IIIe siècle et c'est la métropole la plus peuplée du pays, avec environ 2,2 millions d'habitants en 2021.",
     "raw_labels": [
       "plus peuplée du pays, avec environ 2,2 millions d'habitants en 2021.",
@@ -1339,7 +1339,7 @@
   {
     "year": 2022,
     "year_end": null,
-    "label": "Depuis la loi de 2022, toute femme enceinte peut recourir à l'IVG jusqu'à 14 semaines",
+    "label": "Extension du délai d'accès à l'IVG à 14 semaines de grossesse en France",
     "explication": "Depuis la loi de 2022, toute femme enceinte peut recourir à l'IVG jusqu'à 14 semaines de grossesse (anciennement 12 semaines), sans condition de situation familiale ni accord du partenaire. L'IVG est remboursée à 100% par la Sécurité sociale",
     "raw_labels": [
       "Depuis la loi de 2022, toute femme enceinte peut recourir à l'IVG jusqu'à 14 semaines",
@@ -1356,7 +1356,7 @@
   {
     "year": 2024,
     "year_end": null,
-    "label": "par la Constitution française depuis la révision constitutionnelle de mars 2024.",
+    "label": "Reconnaissance constitutionnelle de l'IVG comme liberté fondamentale en France",
     "explication": "L'interruption volontaire de grossesse (IVG) est reconnue comme une liberté fondamentale garantie par la Constitution française depuis la révision constitutionnelle de mars 2024.",
     "raw_labels": [
       "par la Constitution française depuis la révision constitutionnelle de mars 2024."
@@ -1371,7 +1371,7 @@
   {
     "year": 2025,
     "year_end": null,
-    "label": "Au 1er janvier 2025, l'Union européenne compte toujours 27 États membres, aucun changement n'est",
+    "label": "France 2025 : 70 millions d'habitants, UE à 27 États membres, continuité institutionnelle",
     "explication": "Au 1er janvier 2025, l'Union européenne compte toujours 27 États membres, aucun changement n'est prévu à cette date.",
     "raw_labels": [
       "Au 1er janvier 2025, l'Union européenne compte toujours 27 États membres, aucun changement n'est",
