@@ -6,3 +6,5 @@ unified_*.json
 *.csv
 
 app.py
+
+.env

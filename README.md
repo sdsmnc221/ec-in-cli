@@ -14,7 +14,7 @@ Terminal exam simulator for the French civics test (naturalization / CSP residen
 pip install rich
 ```
 
-Python 3.10+. No database, no network calls at runtime.
+Python 3.10+. No database required. Sync with Convex is optional — `httpx` and `python-dotenv` are only needed if you enable it.
 
 ---
 

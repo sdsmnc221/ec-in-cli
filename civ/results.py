@@ -144,15 +144,29 @@ def score(state: ExamState) -> ScoredSession:
 
 
 def persist(session: ScoredSession, stats: dict):
-    """Record per-question stats + session summary into stats dict and save."""
-    for r in session.results:
-        stats_module.record_question(
-            stats,
-            r.question.id,
-            correct=r.correct,
-            elapsed_ms=r.time_spent_ms,
-        )
+    """
+    Record per-question stats + session summary.
+    If sync is enabled: push delta to Convex, pull authoritative state.
+    If sync is disabled: update local stats only.
+    In both cases, save to disk at the end.
+    """
+    from . import sync as sync_module
+    from .outside import sync_after_session, build_results_payload
 
+    if sync_module.is_enabled(stats) and sync_module.get_key(stats):
+        # Convex is source of truth — push delta then pull authoritative
+        ok = sync_after_session(
+            sync_key=sync_module.get_key(stats),
+            session_results=session.results,
+            stats=stats,
+        )
+        if not ok:
+            # Fallback: update locally if sync failed
+            _persist_local(session, stats)
+    else:
+        _persist_local(session, stats)
+
+    # Always record session summary locally
     m, s = divmod(session.elapsed_seconds, 60)
     stats_module.record_session(stats, {
         "date":     datetime.now().strftime("%Y-%m-%d %H:%M"),
@@ -162,8 +176,20 @@ def persist(session: ScoredSession, stats: dict):
         "score_40": session.score_40,
         "elapsed":  f"{m:02d}:{s:02d}",
         "passed":   session.passed,
+        "synced":   sync_module.is_enabled(stats),
     })
     stats_module.save(stats)
+
+
+def _persist_local(session: ScoredSession, stats: dict):
+    """Update local question stats without Convex."""
+    for r in session.results:
+        stats_module.record_question(
+            stats,
+            r.question.id,
+            correct=r.correct,
+            elapsed_ms=r.time_spent_ms,
+        )
 
 
 # ─── Results screen ───────────────────────────────────────────────────────────
@@ -400,9 +426,9 @@ def review(items: list[QuestionResult], label: str, session: ScoredSession) -> b
         key = getch()
         k   = key.lower()
 
-        if key in ('RIGHT', 'l') and idx < len(items) - 1:
+        if key == 'RIGHT' and idx < len(items) - 1:
             idx += 1
-        elif key in ('LEFT', 'h') and idx > 0:
+        elif key == 'LEFT' and idx > 0:
             idx -= 1
         elif k in ('q', '\x03'):
             return show(session)

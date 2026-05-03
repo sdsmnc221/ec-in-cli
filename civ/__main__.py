@@ -7,12 +7,14 @@ from pathlib import Path
 
 from .cli import parse_args, SAMPLE_DATASET
 from .loader import DataLoader
-from .ui import console, TRICOLOR, header_panel
+from .ui import console, TRICOLOR, header_panel, getch
 from . import stats as stats_module
 from . import tutorial
 from .menus import theme_menu, mode_menu, build_config
 from .engine import run as run_exam
 from .results import score, persist, show as show_results
+from . import sync as sync_module
+from .outside import sync_pull_only
 
 
 def show_startup(loader: DataLoader, dataset_path: str):
@@ -31,11 +33,11 @@ def show_startup(loader: DataLoader, dataset_path: str):
     console.print(loader.stats_table())
 
     # Show difficulty distribution + last sessions if history exists
-    stats_peek   = stats_module.load()
-    sessions     = stats_peek.get("sessions", [])
-    dataset_ids  = {q.id for q in loader.questions}
-    dist         = stats_module.difficulty_distribution(stats_peek, question_ids=dataset_ids)
-    total_seen   = dist["standard"] + dist["hard"] + dist["piege"]
+    stats_peek = stats_module.load()
+    sessions   = stats_peek.get("sessions", [])
+    dataset_ids = {q.id for q in loader.questions}
+    dist        = stats_module.difficulty_distribution(stats_peek, question_ids=dataset_ids)
+    total_seen  = dist["standard"] + dist["hard"] + dist["piege"]
 
     if total_seen > 0:
         console.print(f"\n  [dim]Difficulté dynamique ({total_seen} questions vues) :[/]")
@@ -55,8 +57,27 @@ def show_startup(loader: DataLoader, dataset_path: str):
                 f"[dim]{s['mode']}  {s['elapsed']}[/]"
             )
 
-    console.print(f"\n  [dim]Appuyez sur [bold white]Entrée[/] pour continuer…[/]\n")
-    input()
+    # Sync status line
+    console.print()
+    console.print(sync_module.status_line(stats_peek))
+    console.print()
+    console.print(f"  [dim]Appuyez sur [bold white]Entrée[/] pour continuer, ou [bold white][S][/] pour gérer le sync…[/]\n")
+
+    while True:
+        key = getch()
+        if key.lower() == 's':
+            changed = sync_module.toggle_screen(stats_peek)
+            if changed:
+                stats_module.save(stats_peek)
+                # Pull on sync enable
+                if sync_module.is_enabled(stats_peek):
+                    sync_pull_only(sync_module.get_key(stats_peek), stats_peek)
+                    stats_module.save(stats_peek)
+            # Redraw startup screen
+            show_startup(loader, dataset_path)
+            return
+        elif key in ('\r', '\n', ''):
+            break
 
 
 def main():
@@ -125,7 +146,7 @@ def main():
         session = score(state)
         persist(session, stats)
 
-        # Results — restart=True loops back to home, False exits
+        # Results — True loops back to home, False exits
         if not show_results(session):
             break
 
