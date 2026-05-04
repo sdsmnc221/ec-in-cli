@@ -1,0 +1,21 @@
+[project]
+name = "ec-in-cli"
+version = "0.1.0"
+description = "French civics test (NAT/CSP) within your CLI"
+requires-python = ">=3.10"
+dependencies = [
+    "rich",
+]
+
+[project.optional-dependencies]
+sync = [
+    "httpx",
+    "python-dotenv",
+]
+
+[project.scripts]
+civ = "civ.__main__:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"

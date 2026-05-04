@@ -1,5 +1,6 @@
 *.pyc
 
+timeline_dataset_*.json
 unified_*.json
 *.xlsx
 *.log

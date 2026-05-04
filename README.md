@@ -4,22 +4,42 @@ Terminal exam simulator for the French civics test (naturalization / CSP residen
 
 40 questions, 45-minute countdown, dynamic difficulty tracking across sessions.
 
-
 https://github.com/user-attachments/assets/e623fd4f-ddd6-48c0-a3f8-98615fc78642
 
 ---
 
-## Requirements
+## Install & run with uv (recommended)
+
+[uv](https://docs.astral.sh/uv/) is the fastest way to get started — no manual venv, no pip.
+
+```bash
+cd ec-in-cli/
+
+uv sync                      # install deps, create venv (like npm install)
+uv run civ --sample          # demo mode
+uv run civ                   # full dataset
+
+# Optional: enable Convex sync
+uv sync --extra sync         # also installs httpx + python-dotenv
+```
+
+`uv sync` reads `pyproject.toml` and pins exact versions in `uv.lock`.
+
+---
+
+## Requirements (manual install)
 
 ```bash
 pip install rich
 ```
 
-Python 3.10+. No database required. Sync with Convex is optional — `httpx` and `python-dotenv` are only needed if you enable it.
+**Python 3.10 or higher is required** — the app uses union type syntax (`X | Y`) introduced in 3.10. It will not run on 3.9 or below.
+
+No database required. Sync with Convex is optional — `httpx` and `python-dotenv` are only needed if you enable it.
 
 ---
 
-## Quick start
+## Quick start (without uv)
 
 ```bash
 cd ec-in-cli/
@@ -43,10 +63,10 @@ python -m civ
 | `--tutorial`            | off                             | Force-show the tutorial even if already seen                               |
 
 ```bash
-python -m civ --sample
-python -m civ --dataset ../unified_dataset_yours.json
-python -m civ --mode marathon
-python -m civ --sample --tutorial
+python3 -m civ --sample
+python3 -m civ --dataset ../unified_dataset_yours.json
+python3 -m civ --mode marathon
+python3 -m civ --sample --tutorial
 ```
 
 ---
@@ -84,7 +104,7 @@ At submission, you can navigate flagged and unanswered questions with `←` / `�
 
 ```bash
 ln -s ../unified_dataset_yours.json unified_dataset_complete.json
-python -m civ
+python3 -m civ
 ```
 
 If the default dataset file is missing, the app exits with a red error and points you to `--sample`.
