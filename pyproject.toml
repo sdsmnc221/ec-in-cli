@@ -1,5 +1,5 @@
 [project]
-name = "ec-in-cli"
+name = "civ"
 version = "0.1.0"
 description = "French civics test (NAT/CSP) within your CLI"
 requires-python = ">=3.10"
