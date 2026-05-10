@@ -15,9 +15,10 @@ from .engine import run as run_exam
 from .results import score, persist, show as show_results
 from . import sync as sync_module
 from .outside import sync_pull_only
+from .timeline import run_timeline
 
 
-def show_startup(loader: DataLoader, dataset_path: str):
+def show_startup(loader: DataLoader, dataset_path: str, sample_mode: bool = False):
     console.clear()
     console.print(header_panel("CIVIQUE CLI", "Simulateur d'examen de naturalisation"))
     console.print()
@@ -61,7 +62,8 @@ def show_startup(loader: DataLoader, dataset_path: str):
     console.print()
     console.print(sync_module.status_line(stats_peek))
     console.print()
-    console.print(f"  [dim]Appuyez sur [bold white]Entrée[/] pour continuer, ou [bold white][S][/] pour gérer le sync…[/]\n")
+    console.print(f"  [dim][bold white]Entrée[/] démarrer  [bold white][S][/] sync  [bold white][T][/] timeline  [bold white][Q][/] quitter[/]")
+    console.print()
 
     while True:
         key = getch()
@@ -69,13 +71,17 @@ def show_startup(loader: DataLoader, dataset_path: str):
             changed = sync_module.toggle_screen(stats_peek)
             if changed:
                 stats_module.save(stats_peek)
-                # Pull on sync enable
                 if sync_module.is_enabled(stats_peek):
                     sync_pull_only(sync_module.get_key(stats_peek), stats_peek)
                     stats_module.save(stats_peek)
-            # Redraw startup screen
-            show_startup(loader, dataset_path)
+            show_startup(loader, dataset_path, sample_mode=sample_mode)
             return
+        elif key.lower() == 't':
+            run_timeline(dataset_path=dataset_path, console=console, force_learn_only=sample_mode)
+            show_startup(loader, dataset_path, sample_mode=sample_mode)
+            return
+        elif key in ('q', 'Q', '\x03'):
+            sys.exit(0)
         elif key in ('\r', '\n', ''):
             break
 
@@ -109,7 +115,7 @@ def main():
 
     # Tutorial (first launch only, outside the session loop)
     if stats_module.is_first_launch(stats) or args.tutorial:
-        show_startup(loader, dataset_path)
+        show_startup(loader, dataset_path, sample_mode=args.sample)
         tutorial.show()
         stats_module.mark_launched(stats)
         stats_module.save(stats)
@@ -119,7 +125,7 @@ def main():
         stats = stats_module.load()
 
         # Home screen
-        show_startup(loader, dataset_path)
+        show_startup(loader, dataset_path, sample_mode=args.sample)
 
         # Theme → mode → config
         selected_themes = theme_menu(loader)
